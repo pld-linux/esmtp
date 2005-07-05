@@ -2,7 +2,7 @@ Summary:	esmtp - relay-only Mail Transfer Agent
 Summary(pl):	esmtp - MTA obs³uguj±cy tylko przekazywanie poczty do serwera (E)SMTP
 Name:		esmtp
 Version:	0.5.1
-Release:	0.1
+Release:	0.2
 Epoch:		0
 License:	GPL
 Group:		Applications
@@ -35,8 +35,10 @@ rozszerzenia SMTP StartTLS.
 %install
 rm -rf $RPM_BUILD_ROOT
 
+install -d $RPM_BUILD_ROOT/%{_sysconfdir}
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+install sample.esmtprc	$RPM_BUILD_ROOT/%{_sysconfdir}/esmtprc
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -46,5 +48,5 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/esmtp.1*
 %{_mandir}/man5/esmtprc.5*
-#%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
 #%config(noreplace) %verify(not md5 mtime size) /etc/sysconfig/%{name}
