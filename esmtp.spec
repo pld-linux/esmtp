@@ -13,11 +13,11 @@ BuildRequires:	libesmtp-devel
 BuildRequires:	openssl-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%description	
-esmtp is a user configurable relay-only Mail Transfer
-Agent (MTA) with a sendmail compatible syntax. It's based on libESMTP
-supporting the AUTH (including the CRAM-MD5 and NTLM SASL mechanisms)
-and the StartTLS SMTP extensions.
+%description
+esmtp is a user configurable relay-only Mail Transfer Agent (MTA) with
+a sendmail compatible syntax. It's based on libESMTP supporting the
+AUTH (including the CRAM-MD5 and NTLM SASL mechanisms) and the
+StartTLS SMTP extensions.
 
 %description -l pl
 esmtp to konfigurowalny przez u¿ytkownika MTA (Mail Transfer Agent) o
