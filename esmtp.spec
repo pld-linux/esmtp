@@ -10,7 +10,6 @@ Source0:	http://dl.sourceforge.net/esmtp/%{name}-%{version}.tar.bz2
 # Source0-md5:	9f0b809e891a548910f099efc4315b02
 URL:		http://esmtp.sourceforge.net/
 BuildRequires:	libesmtp-devel
-BuildRequires:	openssl-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
