@@ -3,7 +3,6 @@ Summary(pl):	esmtp - MTA obs³uguj±cy tylko przekazywanie poczty do serwera (E)SM
 Name:		esmtp
 Version:	0.5.1
 Release:	0.3
-Epoch:		0
 License:	GPL v2
 Group:		Applications
 Source0:	http://dl.sourceforge.net/esmtp/%{name}-%{version}.tar.bz2
@@ -47,7 +46,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/esmtp.1*
 %{_mandir}/man5/esmtprc.5*
-%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
