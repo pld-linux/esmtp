@@ -1,5 +1,5 @@
 Summary:	esmtp - relay-only Mail Transfer Agent
-Summary(pl.UTF-8):   esmtp - MTA obsługujący tylko przekazywanie poczty do serwera (E)SMTP
+Summary(pl.UTF-8):	esmtp - MTA obsługujący tylko przekazywanie poczty do serwera (E)SMTP
 Name:		esmtp
 Version:	0.5.1
 Release:	0.3
