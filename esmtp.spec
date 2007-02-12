@@ -1,5 +1,5 @@
 Summary:	esmtp - relay-only Mail Transfer Agent
-Summary(pl):	esmtp - MTA obs≥uguj±cy tylko przekazywanie poczty do serwera (E)SMTP
+Summary(pl.UTF-8):   esmtp - MTA obs≈ÇugujƒÖcy tylko przekazywanie poczty do serwera (E)SMTP
 Name:		esmtp
 Version:	0.5.1
 Release:	0.3
@@ -17,11 +17,11 @@ a sendmail compatible syntax. It's based on libESMTP supporting the
 AUTH (including the CRAM-MD5 and NTLM SASL mechanisms) and the
 StartTLS SMTP extensions.
 
-%description -l pl
-esmtp to konfigurowalny przez uøytkownika MTA (Mail Transfer Agent) o
-sk≥adni kompatybilnej z sendmailem, obs≥uguj±cy wy≥±cznie
+%description -l pl.UTF-8
+esmtp to konfigurowalny przez u≈ºytkownika MTA (Mail Transfer Agent) o
+sk≈Çadni kompatybilnej z sendmailem, obs≈ÇugujƒÖcy wy≈ÇƒÖcznie
 przekazywanie poczty do serwera (E)SMTP. Jest oparty na libESMTP,
-obs≥uguje AUTH (w≥±cznie z mechanizmami SASL CRAM-MD5 i NTLM) oraz
+obs≈Çuguje AUTH (w≈ÇƒÖcznie z mechanizmami SASL CRAM-MD5 i NTLM) oraz
 rozszerzenia SMTP StartTLS.
 
 %prep
