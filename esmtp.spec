@@ -4,7 +4,7 @@ Name:		esmtp
 Version:	0.6.0
 Release:	0.1
 License:	GPL v2
-Group:		Applications
+Group:		Networking/Utilities
 Source0:	http://dl.sourceforge.net/esmtp/%{name}-%{version}.tar.bz2
 # Source0-md5:	3f97c38f8e59978f1a25fe10bb68cdff
 URL:		http://esmtp.sourceforge.net/
