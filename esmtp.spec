@@ -1,12 +1,12 @@
 Summary:	esmtp - relay-only Mail Transfer Agent
 Summary(pl.UTF-8):	esmtp - MTA obsługujący tylko przekazywanie poczty do serwera (E)SMTP
 Name:		esmtp
-Version:	0.6.0
-Release:	0.1
+Version:	1.2
+Release:	1
 License:	GPL v2
 Group:		Networking/Utilities
 Source0:	http://dl.sourceforge.net/esmtp/%{name}-%{version}.tar.bz2
-# Source0-md5:	3f97c38f8e59978f1a25fe10bb68cdff
+# Source0-md5:	79a9c1f9023d53f35bb82bf446150a72
 URL:		http://esmtp.sourceforge.net/
 BuildRequires:	libesmtp-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
